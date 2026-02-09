@@ -121,7 +121,7 @@ CREATE TABLE spell_casts (
   CONSTRAINT chk_cast_order CHECK (cast_order > 0)
 );
 
--- Helpful indexes (not required, but realistic)
+-- Helpful indexes
 CREATE INDEX idx_wizards_house ON wizards(house_id);
 CREATE INDEX idx_wizards_guild ON wizards(guild_id);
 CREATE INDEX idx_spell_casts_duel ON spell_casts(duel_id);
