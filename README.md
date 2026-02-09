@@ -20,9 +20,8 @@ schema design, joins, aggregation, subqueries, and constraints.
 ## Files
 - schema.sql      -- table definitions + constraints
 - seed.sql        -- sample data
-- practice.sql    -- questions
-- solutions.sql   -- solved queries with comments
-
+- practice.sql    -- questions + solved queries
+  
 ## Learning Goals
 This project focuses on understanding how joins and aggregation
 interact, not on building an application layer.
